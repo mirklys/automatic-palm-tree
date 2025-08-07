@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+
+# CMake files
+build/
+CMakeLists.txt
+tasks.json
