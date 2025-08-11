@@ -1,5 +1,9 @@
 README.md
 pyproject.toml
+setup.py
+src/bindings.cpp
+src/palm_trees.cpp
+src/signal_processor.cpp
 src/neuro.egg-info/PKG-INFO
 src/neuro.egg-info/SOURCES.txt
 src/neuro.egg-info/dependency_links.txt
