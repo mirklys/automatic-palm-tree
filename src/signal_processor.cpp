@@ -8,13 +8,11 @@ SignalProcessor::SignalProcessor(const std::string& name) : name(name), threshol
 }
 
 void SignalProcessor::set_threshold(double threshold) {
-    // A simple implementation for set_threshold
     std::cout << "Setting threshold to: " << threshold << std::endl;
     this->threshold_ = threshold;
 }
 
 std::vector<int> SignalProcessor::find_peaks(const std::vector<double>& signal) {
-    // A simple implementation for find_peaks
     std::cout << "Finding peaks with threshold: " << this->threshold_ << std::endl;
     std::vector<int> peaks;
     for (size_t i = 0; i < signal.size(); ++i) {
