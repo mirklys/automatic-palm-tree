@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+src/neuro.egg-info/PKG-INFO
+src/neuro.egg-info/SOURCES.txt
+src/neuro.egg-info/dependency_links.txt
+src/neuro.egg-info/top_level.txt
